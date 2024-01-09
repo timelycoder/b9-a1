@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  width: 1300px;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('../resources/banner-img.png');
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+
+  background-repeat: no-repeat no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #FFF;
+  text-align: center;
+
+}
+
+.banner .banner-title h2 {
+
+
+
+  font-size: 27px;
+
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 177px;
+}
+
+.banner .banner-title h1 {
+
+
+
+  font-size: 56px;
+
+  font-weight: 900;
+  line-height: 95px;
+  max-width: 500px;
+  padding: 20px 320px 70px 344px;
+
+  /* 131.944% */
+}
+
+/* 65% off section...........*/
+
+.hoilday-main {
+  width: 1600px;
+  /* height: 7335px; */
+  margin-right: 100px;
+  /* padding-right: 90px; */
+  /* margin: 20px auto; */
+  /* padding: 50px 250px 12px 250px; */
+
+}
+
+.hoilday-main .holiday-container {
+  text-align: center;
+}
+
+.hoilday-main .holiday-container h2 {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 48px 468px;
+}
+
+.hoilday-main .holiday-container p {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hoilday-main .holiday-container h4 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+/* mindignt................... */
+.mid-night-main {
+  width: 1300px;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: 10px;
+  /* margin-right: 40px; */
+}
+
+.mid-night {
+  background-image: url('../resources/Vectorrr.png');
+  font-family: Merriweather;
+
+  width: 1320px;
+  height: 600px;
+  background-repeat: no-repeat no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1320px;
+  margin: 50px 140px 100px 140px;
+  padding: 20px auto;
+}
+
+.mid-night .mid-night-text {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.mid-night .mid-night-text h2 {
+  color: #FFF;
+
+  font-size: 50px;
+
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-left: 40;
+  margin-right: 550px;
+}
+
+.mid-night .mid-night-text p {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn {
+  color: #FFF;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background: none;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+/* portfolio*************** */
+.portfolio {
+  font-family: 'Inter', sans-serif;
+  width: 1300px;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-style: normal;
+}
+
+.portfolio .portfolio-main h5 {
+  color: #F00;
+
+  font-size: 24px;
+
+  font-weight: 500;
+
+}
+
+.portfolio .portfolio-main h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+
+  font-weight: 900;
+
+  text-transform: capitalize;
+}
+
+.portfolio .portfolio-main p {
+  color: rgba(7, 2, 17, 0.60);
+
+  font-size: 20px;
+  width: 896px;
+
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+}
+
+.portfolio.portfolio-img {
+  display: flex;
+
+}
+
+.portfolio.portfolio-img * {
+  margin: 24px 24px;
+}

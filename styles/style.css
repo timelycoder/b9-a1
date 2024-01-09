@@ -9,7 +9,7 @@
 
 .container {
   width: 1300px;
-  height: 600px;
+  /* height: 600px; */
   margin-top: 30px;
   margin-left: 15px;
 }
@@ -58,16 +58,16 @@
 
 .hoilday-main {
   width: 1600px;
-  /* height: 7335px; */
+
   margin-right: 100px;
-  /* padding-right: 90px; */
-  /* margin: 20px auto; */
-  /* padding: 50px 250px 12px 250px; */
 
 }
 
 .hoilday-main .holiday-container {
   text-align: center;
+  width: 95%;
+  padding-right: 40px;
+  margin-left: 0;
 }
 
 .hoilday-main .holiday-container h2 {
@@ -154,6 +154,8 @@
 
 .btn {
   color: #FFF;
+  border: none;
+  cursor: pointer;
 
   font-family: Inter;
   font-size: 20px;
@@ -173,6 +175,7 @@
   margin-top: 30px;
   margin-left: 10px;
   font-style: normal;
+  padding-bottom: 500px;
 }
 
 .portfolio .portfolio-main h5 {
@@ -202,14 +205,93 @@
 
   font-weight: 400;
   line-height: 32px;
-  /* 160% */
+
 }
 
 .portfolio.portfolio-img {
   display: flex;
+  align-items: center;
 
 }
 
 .portfolio.portfolio-img * {
   margin: 24px 24px;
+}
+
+/*....................subscribe*/
+
+.subscribe {
+
+  margin: 140px 0;
+
+}
+
+.subscribe-main {
+
+  border-radius: 16px;
+  /* background: rgba(255, 0, 0, 0.05); */
+  background: rgba(255, 0, 0, 0.1);
+  padding: 80px;
+  position: relative;
+
+}
+
+.subscribe .subscribe-main .subscribe-log {
+
+  margin-bottom: 40px;
+  width: 150px;
+  height: 150px;
+  /* align-items: center; */
+  position: absolute;
+  transform: translate(500px);
+
+}
+
+.subscribe .subscribe-text {
+  align-items: center;
+
+}
+
+.subscribe .subscribe-text h2 {
+  color: #070211;
+  padding-top: 200px;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.subscribe .subscribe-text p {
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 20px 212px;
+
+}
+
+.subscribe form {
+  width: 720px;
+  /* background-color: #F00; */
+  display: flex;
+  margin: 80px auto;
+}
+
+.subscribe form input {
+  flex-grow: 1;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  background: #FFF;
+}
+
+.subscribe form button {
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  border: none;
+  padding: 20px 30px;
 }

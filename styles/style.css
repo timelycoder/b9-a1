@@ -9,9 +9,8 @@
 
 .container {
   width: 1300px;
-  /* height: 600px; */
-  margin-top: 30px;
-  margin-left: 15px;
+  padding: 120px 140px 30px 20px;
+
 }
 
 .banner {
@@ -60,6 +59,7 @@
   width: 1600px;
 
   margin-right: 100px;
+  /* padding: 120px 140px; */
 
 }
 
@@ -107,9 +107,8 @@
 .mid-night-main {
   width: 1300px;
   height: 600px;
-  margin-top: 30px;
-  margin-left: 10px;
-  /* margin-right: 40px; */
+  padding: 20px 40px 20px 10px;
+
 }
 
 .mid-night {
@@ -172,10 +171,10 @@
   font-family: 'Inter', sans-serif;
   width: 1300px;
   height: 600px;
-  margin-top: 30px;
-  margin-left: 10px;
+
   font-style: normal;
-  padding-bottom: 500px;
+  padding: 50px 50px;
+  margin-bottom: 500px;
 }
 
 .portfolio .portfolio-main h5 {
@@ -223,7 +222,7 @@
 .subscribe {
 
   margin: 140px 0;
-
+  padding: 120px 140px;
 }
 
 .subscribe-main {
